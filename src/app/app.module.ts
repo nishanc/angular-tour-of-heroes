@@ -37,6 +37,9 @@ import { MessagesComponent } from './messages/messages.component';
     MessagesComponent,
     HeroSearchComponent
   ],
+  providers: [
+    provideClientHydration()
+  ],
   bootstrap: [ AppComponent ]
 })
 export class AppModule { }
